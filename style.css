@@ -1,0 +1,108 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.top{
+    height:90px;
+    width:100%;
+    background-color:floralwhite;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 40px;
+}
+
+.nav a{
+    margin-left:25px;
+    text-decoration:none;
+    color:darkgreen;
+    font-size:18px;
+    font-weight:600;
+}
+
+.nav a:hover{
+    color:black;
+}
+
+.left img{
+    height:80px;
+}
+
+
+.hero{
+    height:75vh;
+    background-image:linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url("360_F_634096945_nT013AXOaokOmXXU0mRlfSLmnSbbmZXw.jpg");
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    padding:20px;
+}
+
+.hero h1{
+    font-size:60px;
+    font-weight:800;
+    letter-spacing:2px;
+    margin-bottom:20px;
+}
+
+.text{
+    max-width:750px;
+    font-size:20px;
+    line-height:1.7;
+    margin-bottom:30px;
+}
+
+#a{
+    border:none;
+    border-radius:30px;
+    height:55px;
+    width:180px;
+    font-size:18px;
+    font-weight:bold;
+    background:linear-gradient(45deg, #00c853, #64dd17);
+    color:white;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+#a:hover{
+    transform:scale(1.08);
+    background:linear-gradient(45deg, #2e7d32, #00c853);
+}
+
+
+.footer{
+    background-color:#111;
+    color:white;
+    text-align:center;
+    padding:25px 10px;
+}
+
+.footer a{
+    color:white;
+    margin:0 15px;
+    text-decoration:none;
+    font-size:18px;
+}
+
+.footer a:hover{
+    color:#64dd17;
+}
+
+.footer p{
+    margin-top:10px;
+    font-size:14px;
+    color:#bbb;
+}
